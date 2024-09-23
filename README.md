@@ -23,8 +23,9 @@ https://reimg.cfd/?url=image_public_url&width=image_width&height=image_height
 
 ## Example Usage
 ```
-https://reimg.cfd/?url=https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg&width=1700&height=1400
+https://reimg.cfd/?url=https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_(NASA-med).jpg&width=170&height=140
 ```
+![Image manipulated by reimg](https://reimg.cfd/?url=https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_(NASA-med).jpg&width=170&height=140)
 
 ## Local setup for development with docker
 
