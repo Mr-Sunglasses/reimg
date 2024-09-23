@@ -1,0 +1,25 @@
+[project]
+name = "reimg"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Kanishk Pachauri", email = "itskanishkp.py@gmail.com"},
+]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.6",
+    "requests>=2.32.3",
+    "Pillow>=10.4.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "WTFPL"}
+
+[tool.pdm.scripts]
+start = "uvicorn src.reimg.main:app --host 0.0.0.0 --port 8080 --workers 4"
+dev = "uvicorn src.reimg.main:app --host 0.0.0.0 --port 8080 --reload"
+
+
+
+[tool.pdm]
+distribution = false
