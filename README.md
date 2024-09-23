@@ -18,7 +18,7 @@ I've been managing a my [blog](https://blog.kanishkk.me),which supports writing 
 ## Usage
 
 ```
-https://reimg.cfd/?url=image_public_url&width=image_width&height=1428
+https://reimg.cfd/?url=image_public_url&width=image_width&height=image_height
 ```
 
 ## Example Usage
