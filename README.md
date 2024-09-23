@@ -12,14 +12,41 @@ A tool that can help you to resize images.
     <img src="etc/reimg.png">
 </p>
 
+## The Problem
+I've been managing a my [blog](https://blog.kanishkk.me),which supports writing posts in markdown format. The biggest issue I've encountered is resizing images since markdown doesn't support HTML for this purpose. 
+
+## Usage
+
+```
+https://reimg.cfd/?url=image_public_url&width=image_width&height=1428
+```
+
+## Example Usage
+```
+http://reimg.cfd/?url=https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg&width=1700&height=1400
+```
+
+## Local setup for development
+Note: The project use [PDM](https://pdm-project.org/en/latest/) to manage dependencies, so make sure that your system have [pdm installed](https://pdm-project.org/en/latest/#installation)
+
+```
+git clone https://github.com/Mr-Sunglasses/reimg
+
+cd reimg
+
+pdm install
+
+# To run in development mode
+pdm run dev
+
+# To run in production mode
+pdm run start
+```
+
 
 ## Contributing
 
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 ## Authors
 
