@@ -26,7 +26,20 @@ https://reimg.cfd/?url=image_public_url&width=image_width&height=image_height
 http://reimg.cfd/?url=https://upload.wikimedia.org/wikipedia/commons/c/c3/NGC_4414_%28NASA-med%29.jpg&width=1700&height=1400
 ```
 
-## Local setup for development
+## Local setup for development with docker
+
+```
+git clone https://github.com/Mr-Sunglasses/reimg
+
+cd reimg
+
+docker build -t reimg .
+
+docker run -d -p 8080:8080 --name reimg-container reimg
+
+```
+
+## Local setup for development without docker
 Note: The project use [PDM](https://pdm-project.org/en/latest/) to manage dependencies, so make sure that your system have [pdm installed](https://pdm-project.org/en/latest/#installation)
 
 ```
